@@ -1,3 +1,16 @@
+# WIFI连接调试
+    ### 安装nomachine
+    1、下载安装包
+    https://downloads.nomachine.com/download/?id=1
+
+    2、然后ssh进入pc2并./nomachine.sh运行脚本文件
+    3、然后打开自己pc的nomachine就可以看到pc2里面的图形化界面了
+
+### 连接到同一个wifi
+    将pc2和自己的pc连到同一个wifi
+    然后用自己的pc ssh进入wifi给pc2分配的ip就可以无线开发了
+
+
 # g1 控制接口
 
 ## 确认是否可以下肢服务控制，上肢电机控制，在什么模式下
@@ -31,18 +44,6 @@
         这是一个服务通信模式，还要该写base_client.hpp文件
 
 # 传感器驱动安装
-### 安装nomachine
-    1、下载安装包
-    https://downloads.nomachine.com/download/?id=1
-
-    2、然后ssh进入pc2并./nomachine.sh运行脚本文件
-    3、然后打开自己pc的nomachine就可以看到pc2里面的图形化界面了
-
-### 连接到同一个wifi
-    将pc2和自己的pc连到同一个wifi
-    然后用自己的pc ssh进入wifi给pc2分配的ip就可以无线开发了
-
-
 ## 雷达驱动安装到PC2
 
     1、下载ros2驱动
