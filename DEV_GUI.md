@@ -62,6 +62,15 @@
         
 
     6、调试问题，先试下狗吧
+        服务模式
+            ./install/unitree_ros2_example/bin/go2_sport_client_example
+            机器人会先坐下然后等待3秒后恢复站立
+
+        话题通讯模式
+            ./install/unitree_ros2_example/bin/sport_mode_ctrl
+            程序启动1秒后，机器人将在x方向来回行走。
+
+        关注下网口对不对
     
 # 三、传感器驱动安装
 ## 雷达驱动安装到PC2
