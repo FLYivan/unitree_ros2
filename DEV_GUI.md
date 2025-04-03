@@ -226,7 +226,22 @@
     2、桥接接口
         先试下原版
 
+        python3 ./go2_sport_client.py wlp0s20f3
+
         再试桥接
+
+        1、检查python库安装路径
+            pip show unitree_sdk2py
+            pip show opencv-python
+            pip3 install -e .
+
+            pip install unitree_sdk2py
+            pip uninstall unitree_sdk2py
+            pip uninstall opencv-python
+
+        sudo pip3 install -e .
+        卸载sudo安装的opencv
+        sudo pip uninstall opencv-python
 
         ros2 run go2_cmd cmd_pub_test
         ros2 run go2_cmd go2_p2r_cmd
